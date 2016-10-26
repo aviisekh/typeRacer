@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TypeRacer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<!-- <body bgcolor="#7dd8e8"> -->
+<body bgcolor="#EDE7B5">
+    <div id="overlay">
+        <div id="start-wrapper">
+            <h1>Typing race</h1>
+            <button type="button" id="start"> Start Race </button>
+        </div>
+    </div>
+    <div class="container" id="container1">
+        <div class="carArea">
+            <div class="carTrack">
+                <div id="car">
+                </div>
+            </div>
+            <div id="timer">
+                <span>: </span>
+                <span></span>
+                <span>: </span>
+                <span></span>
+            </div>
+            <div id="wpm">
+                <span style="margin-right: 10px">0</span> <span>wpm</span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js">
+    </script>
+    <script>
+    // console.log(raceArea.textArea);
+    var race = new Race(new RaceArea());
+    </script>
+    </body>
+
+</html>
